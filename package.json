@@ -1,0 +1,19 @@
+{
+  "name": "api-vocabulary",
+  "version": "1.0.0",
+  "description": "servies for learning new words",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nessy126/api-vocabulary.git"
+  },
+  "author": "Anastasiia Ivanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nessy126/api-vocabulary/issues"
+  },
+  "homepage": "https://github.com/nessy126/api-vocabulary#readme"
+}
