@@ -1,3 +1,4 @@
+const { createError } = require("../../helpers/errors");
 const { Word } = require("../../models/word");
 
 const updateById = async (req, res, next) => {
