@@ -8,6 +8,7 @@ const router = express.Router();
 
 router.post("/", ctrlWrapper(ctrl.addWord));
 router.get("/", ctrlWrapper(ctrl.getAll));
-// console.log(router.get("/", ctrlWrapper(ctrl.getAll)));
+router.patch("/:wordId", ctrlWrapper(ctrl.updateById));
+console.log(ctrl);
 
 module.exports = router;
